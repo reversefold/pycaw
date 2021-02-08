@@ -11,12 +11,12 @@ def read(fname):
 
 install_requires = [
     'comtypes', 'enum34;python_version<"3.4"', 'psutil', 'future']
-setup(name='pycaw',
-      version='20190904',
+setup(name='pycaw-rf',
+      version='20210207',
       description='Python Core Audio Windows Library',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
-      author='Andre Miras',
-      url='https://github.com/AndreMiras/pycaw',
+      author=['Andre Miras', 'Julia Patrin'],
+      url='https://github.com/reversefold/pycaw',
       packages=['pycaw'],
       install_requires=install_requires)
